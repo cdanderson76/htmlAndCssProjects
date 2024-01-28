@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital@1&family=Source+Sans+3:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+
+/*Use 'margin: auto' for non flexbox/grid projects */
+
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fits images in containers no matter the size */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Source Sans 3', sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+}
+
+.profile-card {
+  width: 375px;
+  height: 612px;
+  align-items: center;
+  background-color: white;
+}
+
+.user-header {
+  display: flex;
+  justify-content: center;
+  width: 375px;
+  height: 67px;
+  border-bottom: 1px solid #C6C6C6;
+  padding: 16px 16px 17px 15px;
+}
+
+.logo {
+  width: 85px;
+  height: 33.02px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+header .avatar {
+  margin-left: 215px;
+}
+
+section .avatar {
+  margin: 10px 0 0 10px;
+}
+
+.user-posting {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 55px;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.text-slot, .text-slot2 {
+  width: 307px;
+  height: 15px;
+}
+
+.text-slot {
+  margin: -40px 0 0 52px;
+}
+
+.text-slot2 {
+  margin-left: 52px;
+}
+
+.bold {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.lighter {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.active-post {
+  width: 375px;
+  height: 375px;
+}
+
+.comment-box {
+  width: 375px;
+  height: 115px;
+  padding: 21px 0 0 10px;
+}
+
+.icon-box {
+  width: 346px;
+  height: 78px;
+}
+
+.small-icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 104.34px;
+  height: 22.13px;
+}
+
+.small-icon-container img {
+  width: 25px;
+  height: 28px;
+}
+
+.likes {
+  width: 343px;
+  height: 16px;
+  margin-top: 13px;
+}
+
+.likes .lighter {
+  margin-top: 10px;
+}
+
+.small-icon-container img:hover,
+.small-icon-container img:focus {
+  opacity: 0.5;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
